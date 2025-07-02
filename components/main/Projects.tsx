@@ -14,6 +14,9 @@ import {
   SiGithub,
   SiTailwindcss,
   SiRedux,
+  SiFigma,
+  SiAndroid,
+  SiTypescript,
 } from "react-icons/si";
 
 const Projects = () => {
@@ -31,24 +34,23 @@ const Projects = () => {
           title="Moneyx Exchange Dashboard"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           techs={[
-            { name: "Next.js", icon: <SiNextdotjs size={20} color="#000" /> },
-            { name: "MUI", icon: <SiMui size={20} color="#000" /> },
+            {
+              name: "Next.js",
+              icon: <SiNextdotjs size={20} color="#878787" />,
+            },
+            { name: "MUI", icon: <SiMui size={20} color="#00a9f7" /> },
             {
               name: "GraphQl",
-              icon: <SiApollographql size={20} color="#000" />,
+              icon: <SiApollographql size={20} color="#ee0097" />,
             },
             {
               name: "SocketIo",
-              icon: <SiSocketdotio size={20} color="#000" />,
+              icon: <SiSocketdotio size={20} color="#fff" />,
             },
-            {
-              name: "SocketIo",
-              icon: <SiSocketdotio size={20} color="#000" />,
-            },
-            { name: "Chart", icon: <SiChartdotjs size={20} color="#000" /> },
-            { name: "Docker", icon: <SiDocker size={20} color="#000" /> },
-            { name: "GitLab", icon: <SiGitlab size={20} color="#000" /> },
-            { name: "Redux", icon: <SiRedux size={20} color="#000" /> },
+            { name: "Chart", icon: <SiChartdotjs size={20} color="#f7c954" /> },
+            { name: "Docker", icon: <SiDocker size={20} color="#008bdb" /> },
+            { name: "GitLab", icon: <SiGitlab size={20} color="#f56a25" /> },
+            { name: "Redux", icon: <SiRedux size={20} color="#7248b5" /> },
           ]}
         />
         <ProjectCard
@@ -56,12 +58,16 @@ const Projects = () => {
           title="Nike Store App"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           techs={[
-            { name: "GitHub", icon: <SiGithub size={20} color="#47C5FB" /> },
+            {
+              name: "TypeScript",
+              icon: <SiTypescript size={20} color="#0077c7" />,
+            },
+            { name: "GitHub", icon: <SiGithub size={20} color="#fff" /> },
             {
               name: "Tailwind",
-              icon: <SiTailwindcss size={20} color="#FFA000" />,
+              icon: <SiTailwindcss size={20} color="#16b9c4" />,
             },
-            { name: "Redux", icon: <SiRedux size={20} color="#000" /> },
+            { name: "Redux", icon: <SiRedux size={20} color="#7248b5" /> },
           ]}
         />
         <ProjectCard
@@ -70,8 +76,16 @@ const Projects = () => {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           techs={[
             { name: "Flutter", icon: <SiFlutter size={20} color="#47C5FB" /> },
-            { name: "Firebase", icon: <SiDart size={20} color="#47C5FB" /> },
-            { name: "GitLab", icon: <SiGitlab size={20} color="#000" /> },
+            { name: "Dart", icon: <SiDart size={20} color="#055596" /> },
+            { name: "GitLab", icon: <SiGitlab size={20} color="#f56a25" /> },
+            { name: "Figma", icon: <SiFigma size={20} color="#9c57f7" /> },
+            { name: "Android", icon: <SiAndroid size={20} color="#79ad40" /> },
+            {
+              name: "GraphQl",
+              icon: <SiApollographql size={20} color="#ee0097" />,
+            },
+
+            { name: "Docker", icon: <SiDocker size={20} color="#008bdb" /> },
           ]}
         />
       </div>
